@@ -1,0 +1,88 @@
+{
+  "name": "test_add[round]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "计算两个数的和",
+      "status": "passed",
+      "start": 1615711825150,
+      "stop": 1615711825150
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "a2354c04-3776-48cd-b2e6-d2ef43449b6b-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "0.1"
+    },
+    {
+      "name": "b",
+      "value": "0.2"
+    },
+    {
+      "name": "expect",
+      "value": "0.3"
+    }
+  ],
+  "start": 1615711825150,
+  "stop": 1615711825150,
+  "uuid": "9011d45d-00df-43b1-8724-a8c500ca6a40",
+  "historyId": "be6a306d29ed9502371704400529b21c",
+  "testCaseId": "fa617706cae274bd14d169a208554c00",
+  "fullName": "test_calc.TestCalculator#test_add",
+  "labels": [
+    {
+      "name": "story",
+      "value": "两个数的加法运算"
+    },
+    {
+      "name": "feature",
+      "value": "计算器操作"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "WIN-PMDM93BUHJO"
+    },
+    {
+      "name": "thread",
+      "value": "2848-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "https://www.jianshu.com/p/bdd1d6fcc5df",
+      "name": "https://www.jianshu.com/p/bdd1d6fcc5df"
+    }
+  ]
+}

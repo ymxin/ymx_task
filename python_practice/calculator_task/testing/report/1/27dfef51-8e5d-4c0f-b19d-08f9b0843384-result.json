@@ -1,0 +1,80 @@
+{
+  "name": "test_subtract[float]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "5647b702-1def-4582-8683-0d9e1fc9b984-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "2.0"
+    },
+    {
+      "name": "b",
+      "value": "1.0"
+    },
+    {
+      "name": "expect",
+      "value": "1.0"
+    }
+  ],
+  "start": 1615711825323,
+  "stop": 1615711825323,
+  "uuid": "4465dac3-6746-4ada-b61e-fc6d8a493e0d",
+  "historyId": "eb46de2c5c4815e2f5fe74fb9ca5fcbe",
+  "testCaseId": "3f6f87c1d9e5522ef4ad885c817e803d",
+  "fullName": "test_calc.TestCalculator#test_subtract",
+  "labels": [
+    {
+      "name": "story",
+      "value": "两个数的减法运算"
+    },
+    {
+      "name": "feature",
+      "value": "计算器操作"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "WIN-PMDM93BUHJO"
+    },
+    {
+      "name": "thread",
+      "value": "2848-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "https://www.jianshu.com/p/bdd1d6fcc5df",
+      "name": "https://www.jianshu.com/p/bdd1d6fcc5df"
+    }
+  ]
+}

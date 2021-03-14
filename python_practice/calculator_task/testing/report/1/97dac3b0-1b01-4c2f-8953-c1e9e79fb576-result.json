@@ -1,0 +1,80 @@
+{
+  "name": "test_multiply[int]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "adf6c946-bde1-448c-b9c5-48404f27146d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "1"
+    },
+    {
+      "name": "b",
+      "value": "2"
+    },
+    {
+      "name": "expect",
+      "value": "2"
+    }
+  ],
+  "start": 1615711825373,
+  "stop": 1615711825373,
+  "uuid": "5d3574b5-866b-46ce-a8ff-576ce9e07df7",
+  "historyId": "fd5889a0578053163286c73a31981a98",
+  "testCaseId": "f29b7f930930bae8018efa016dfddfc9",
+  "fullName": "test_calc.TestCalculator#test_multiply",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "计算器操作"
+    },
+    {
+      "name": "story",
+      "value": "两个数的乘法运算"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "WIN-PMDM93BUHJO"
+    },
+    {
+      "name": "thread",
+      "value": "2848-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "https://www.jianshu.com/p/bdd1d6fcc5df",
+      "name": "https://www.jianshu.com/p/bdd1d6fcc5df"
+    }
+  ]
+}

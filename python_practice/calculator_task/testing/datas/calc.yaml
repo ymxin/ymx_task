@@ -1,0 +1,72 @@
+add:
+  datas:
+    - - 1
+      - 2
+      - 3
+    - - 4
+      - 5
+      - 9
+    - [ 0.1, 0.2, 0.3 ]
+    - [ 0.1,-0.2,0.3 ]
+    - [ -1,-2,-3 ]
+    - [ 2147483647,2147483647,2147483647 ]
+  myid:
+    - 'int'
+    - 'float'
+    - 'round'
+    - 'fail'
+    - 'negative'
+    - maxvalue
+subtract:
+  datas:
+    - - 10
+      - 2
+      - 8
+    - - 4
+      - 5
+      - -1
+    - - 2.0
+      - 1.0
+      - 1.0
+    - - 0.5
+      - 0.2
+      - 0.3
+    - - 4
+      - 2
+      - 3
+    - [ 'a','b','c' ]
+    - [ '一','二','二' ]
+    - [ '$','*','^' ]
+  myid:
+    - 'int'
+    - 'negative'
+    - 'float'
+    - 'round'
+    - 'fail'
+    - 'number'
+    - 'chinese'
+    - 'character'
+multiply:
+  datas:
+    - - 1
+      - 2
+      - 2
+    - [ 0.1, 0.2, 0.02 ]
+    - [ 0.1,-0.2,0.3 ]
+  myid:
+    - 'int'
+    - 'round'
+    - 'fail'
+divide:
+  datas:
+    - - 1
+      - 2
+      - 0.5
+    - [ 10.0, 2.0, 5.0 ]
+    - [ 0.1,-0.2,0.3 ]
+    - [ 1,0,0 ]
+  myid:
+    - 'float'
+    - 'round'
+    - 'fail'
+    - 'ZeroDivision'

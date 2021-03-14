@@ -1,0 +1,96 @@
+{
+  "name": "test_add[maxvalue]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 4294967294 == 2147483647",
+    "trace": "self = <calculator_task.testing.test_calc.TestCalculator object at 0x000001D39E451D00>, get_calc = None, a = 2147483647, b = 2147483647, expect = 2147483647\n\n    @allure.story(\"两个数的加法运算\")\n    @pytest.mark.parametrize(\n        \"a,b,expect\",\n        add_datas, ids=add_myid\n    )\n    @pytest.mark.run(order=1)\n    def test_add(self,get_calc, a, b, expect):\n        with allure.step(\"计算两个数的和\"):\n            # 调用add方法\n            result = self.cal.add(a,b)\n            # 判断result 是否是 浮点数，是，保留两位小数\n            if isinstance(result, float):\n                # 得出结果，写断言\n                assert round(result, 2) == expect\n            else:\n                # 得到结果，断言处理\n>               assert result == expect\nE               assert 4294967294 == 2147483647\n\ntest_calc.py:70: AssertionError"
+  },
+  "steps": [
+    {
+      "name": "计算两个数的和",
+      "status": "failed",
+      "statusDetails": {
+        "message": "AssertionError: assert 4294967294 == 2147483647\n",
+        "trace": "  File \"D:\\ymx_software\\ymx_project\\pythonProject\\ymx_python_project\\python_practice\\calculator_task\\testing\\test_calc.py\", line 70, in test_add\n    assert result == expect\n"
+      },
+      "start": 1615711825273,
+      "stop": 1615711825273
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "ff42f31c-332b-4c66-b206-a1061c4d28f9-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "2147483647"
+    },
+    {
+      "name": "b",
+      "value": "2147483647"
+    },
+    {
+      "name": "expect",
+      "value": "2147483647"
+    }
+  ],
+  "start": 1615711825273,
+  "stop": 1615711825273,
+  "uuid": "9244c308-5df9-4269-888e-5dc800f036eb",
+  "historyId": "8d059c9e98b5de503c2bbdea83a34d6a",
+  "testCaseId": "fa617706cae274bd14d169a208554c00",
+  "fullName": "test_calc.TestCalculator#test_add",
+  "labels": [
+    {
+      "name": "story",
+      "value": "两个数的加法运算"
+    },
+    {
+      "name": "feature",
+      "value": "计算器操作"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "WIN-PMDM93BUHJO"
+    },
+    {
+      "name": "thread",
+      "value": "2848-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "https://www.jianshu.com/p/bdd1d6fcc5df",
+      "name": "https://www.jianshu.com/p/bdd1d6fcc5df"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "test_subtract[fail]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 2 == 3",
+    "trace": "self = <calculator_task.testing.test_calc.TestCalculator object at 0x000001D39E454A30>, get_calc = None, a = 4, b = 2, expect = 3\n\n    @allure.story(\"两个数的减法运算\")\n    @pytest.mark.parametrize(\n        \"a,b,expect\",\n        sub_datas,ids=sub_myid\n    )\n    @pytest.mark.run(order=3)\n    def test_subtract(self,get_calc,a,b,expect):\n        # 调用subtract方法\n        result = self.cal.subtract(a,b)\n        # 判断result 是否是 浮点数，是，保留两位小数\n        if isinstance(result, float):\n            # 得出结果，写断言\n            assert round(result, 2) == expect\n        else:\n            # 得到结果，断言处理\n>           assert result == expect\nE           assert 2 == 3\n\ntest_calc.py:89: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "60d43eb1-7007-4ac5-bb58-e05979f59dfe-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "4"
+    },
+    {
+      "name": "b",
+      "value": "2"
+    },
+    {
+      "name": "expect",
+      "value": "3"
+    }
+  ],
+  "start": 1615711825333,
+  "stop": 1615711825333,
+  "uuid": "59cab22b-ddb2-457e-89ce-50790668c54b",
+  "historyId": "1a932d1af77077253a09d84fc4725c51",
+  "testCaseId": "3f6f87c1d9e5522ef4ad885c817e803d",
+  "fullName": "test_calc.TestCalculator#test_subtract",
+  "labels": [
+    {
+      "name": "story",
+      "value": "两个数的减法运算"
+    },
+    {
+      "name": "feature",
+      "value": "计算器操作"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "WIN-PMDM93BUHJO"
+    },
+    {
+      "name": "thread",
+      "value": "2848-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "https://www.jianshu.com/p/bdd1d6fcc5df",
+      "name": "https://www.jianshu.com/p/bdd1d6fcc5df"
+    }
+  ]
+}

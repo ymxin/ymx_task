@@ -1,0 +1,84 @@
+{
+  "name": "test_multiply[fail]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert -0.02 == 0.3\n +  where -0.02 = round(-0.020000000000000004, 2)",
+    "trace": "self = <calculator_task.testing.test_calc.TestCalculator object at 0x000001D39E50CB20>, get_calc = None, a = 0.1, b = -0.2, expect = 0.3\n\n    @allure.story(\"两个数的乘法运算\")\n    @pytest.mark.parametrize(\n        \"a,b,expect\",\n        mul_datas, ids=mul_myid\n    )\n    @pytest.mark.run(order=4)\n    def test_multiply(self,get_calc,a,b,expect):\n        # 调用multiply方法\n        result = self.cal.multiply(a, b)\n        # 判断result 是否是 浮点数，是，保留两位小数\n        if isinstance(result, float):\n            # 得出结果，写断言\n>           assert round(result, 2) == expect\nE           assert -0.02 == 0.3\nE            +  where -0.02 = round(-0.020000000000000004, 2)\n\ntest_calc.py:103: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "f513d74b-8ca0-4ddc-ab2a-ed748ad0b314-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "0.1"
+    },
+    {
+      "name": "b",
+      "value": "-0.2"
+    },
+    {
+      "name": "expect",
+      "value": "0.3"
+    }
+  ],
+  "start": 1615711825383,
+  "stop": 1615711825383,
+  "uuid": "aaa9047f-c8e9-41f4-b79e-cb17e46e186b",
+  "historyId": "453e6a065e1949ff7d1853efc487d7ac",
+  "testCaseId": "f29b7f930930bae8018efa016dfddfc9",
+  "fullName": "test_calc.TestCalculator#test_multiply",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "计算器操作"
+    },
+    {
+      "name": "story",
+      "value": "两个数的乘法运算"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "WIN-PMDM93BUHJO"
+    },
+    {
+      "name": "thread",
+      "value": "2848-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "https://www.jianshu.com/p/bdd1d6fcc5df",
+      "name": "https://www.jianshu.com/p/bdd1d6fcc5df"
+    }
+  ]
+}

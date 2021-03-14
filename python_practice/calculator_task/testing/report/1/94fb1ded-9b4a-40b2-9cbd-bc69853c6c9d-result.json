@@ -1,0 +1,84 @@
+{
+  "name": "test_subtract[character]",
+  "status": "broken",
+  "statusDetails": {
+    "message": "TypeError: unsupported operand type(s) for -: 'str' and 'str'",
+    "trace": "self = <calculator_task.testing.test_calc.TestCalculator object at 0x000001D39E44DB80>, get_calc = None, a = '$', b = '*', expect = '^'\n\n    @allure.story(\"两个数的减法运算\")\n    @pytest.mark.parametrize(\n        \"a,b,expect\",\n        sub_datas,ids=sub_myid\n    )\n    @pytest.mark.run(order=3)\n    def test_subtract(self,get_calc,a,b,expect):\n        # 调用subtract方法\n>       result = self.cal.subtract(a,b)\n\ntest_calc.py:82: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <calculator_task.python_code.calculator.Calculator object at 0x000001D39E44D5E0>, x = '$', y = '*'\n\n    def subtract(self, x, y):\n>       return x - y\nE       TypeError: unsupported operand type(s) for -: 'str' and 'str'\n\n..\\python_code\\calculator.py:18: TypeError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "4f780be5-631f-4c7c-8a85-2ae4dd72095d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "'$'"
+    },
+    {
+      "name": "b",
+      "value": "'*'"
+    },
+    {
+      "name": "expect",
+      "value": "'^'"
+    }
+  ],
+  "start": 1615711825363,
+  "stop": 1615711825363,
+  "uuid": "470dd741-d34f-4092-84aa-cec7fa87adb8",
+  "historyId": "867928fc06869ba9c5d835a742b178c7",
+  "testCaseId": "3f6f87c1d9e5522ef4ad885c817e803d",
+  "fullName": "test_calc.TestCalculator#test_subtract",
+  "labels": [
+    {
+      "name": "story",
+      "value": "两个数的减法运算"
+    },
+    {
+      "name": "feature",
+      "value": "计算器操作"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "WIN-PMDM93BUHJO"
+    },
+    {
+      "name": "thread",
+      "value": "2848-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "https://www.jianshu.com/p/bdd1d6fcc5df",
+      "name": "https://www.jianshu.com/p/bdd1d6fcc5df"
+    }
+  ]
+}

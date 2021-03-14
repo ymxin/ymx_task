@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="1" skipped="0" tests="9" time="0.140"
+               timestamp="2021-03-14T11:03:11.435885" hostname="WIN-PMDM93BUHJO">
+        <testcase classname="test_calculator.TestCalculator" name="test_add" time="0.001"/>
+        <testcase classname="test_calculator.TestCalculator" name="test_add2" time="0.001"/>
+        <testcase classname="test_calculator.TestCalculator" name="test_add3" time="0.001"/>
+        <testcase classname="test_calculator.TestCalculator" name="test_subtract" time="0.000"/>
+        <testcase classname="test_calculator.TestCalculator" name="test_multiply" time="0.000"/>
+        <testcase classname="test_calculator.TestCalculator" name="test_divide" time="0.000"/>
+        <testcase classname="test_demo" name="test_a" time="0.001"/>
+        <testcase classname="test_demo" name="test_b" time="0.001"/>
+        <testcase classname="test_demo" name="test_c" time="0.001">
+            <failure message="assert 1 == 2">def test_c():
+                &gt; assert 1 == 2
+                E assert 1 == 2
+
+                test_demo.py:17: AssertionError
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>

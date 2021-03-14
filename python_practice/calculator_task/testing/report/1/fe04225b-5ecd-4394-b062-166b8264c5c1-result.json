@@ -1,0 +1,84 @@
+{
+  "name": "test_divide[ZeroDivision]",
+  "status": "broken",
+  "statusDetails": {
+    "message": "ZeroDivisionError: division by zero",
+    "trace": "self = <calculator_task.testing.test_calc.TestCalculator object at 0x000001D39E4548B0>, get_calc = None, a = 1, b = 0, expect = 0\n\n    @allure.story(\"两个数的除法运算\")\n    @pytest.mark.parametrize(\n        \"a,b,expect\",\n        div_datas, ids=div_myid\n    )\n    @pytest.mark.run(order=2)\n    def test_divide(self,get_calc,a,b,expect):\n        # 调用divide方法\n>       result = self.cal.divide(a, b)\n\ntest_calc.py:116: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <calculator_task.python_code.calculator.Calculator object at 0x000001D39E3D4340>, x = 1, y = 0\n\n    def divide(self, x, y):\n>       return x / y\nE       ZeroDivisionError: division by zero\n\n..\\python_code\\calculator.py:26: ZeroDivisionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "d94cba7a-a6cd-4d6a-98db-a306a559ed35-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "1"
+    },
+    {
+      "name": "b",
+      "value": "0"
+    },
+    {
+      "name": "expect",
+      "value": "0"
+    }
+  ],
+  "start": 1615711825303,
+  "stop": 1615711825303,
+  "uuid": "ccb14c6b-77eb-4824-ab00-4ee86590b748",
+  "historyId": "6a1650cb415184d99f0c20d1d5c96832",
+  "testCaseId": "e41e5d8c3c26d78bd7d262803371d3c4",
+  "fullName": "test_calc.TestCalculator#test_divide",
+  "labels": [
+    {
+      "name": "story",
+      "value": "两个数的除法运算"
+    },
+    {
+      "name": "feature",
+      "value": "计算器操作"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalculator"
+    },
+    {
+      "name": "host",
+      "value": "WIN-PMDM93BUHJO"
+    },
+    {
+      "name": "thread",
+      "value": "2848-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "https://www.jianshu.com/p/bdd1d6fcc5df",
+      "name": "https://www.jianshu.com/p/bdd1d6fcc5df"
+    }
+  ]
+}
