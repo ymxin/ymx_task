@@ -1,0 +1,34 @@
+goto_quick_input:
+  - locator: //*[@resource-id='com.tencent.wework:id/et5']//*[@resource-id='com.tencent.wework:id/bgk']//*[@resource-id='com.tencent.wework:id/b7m']
+    action: find_send
+    send_key: aa_008
+
+  - locator: //*[@resource-id='com.tencent.wework:id/fwi']
+    action: find_send
+    send_key: 18823145378
+
+  - locator: //*[@text='保存']
+    action: find_click
+
+goto_full_input:
+  - locator: //*[@resource-id='com.tencent.wework:id/et5']//*[@resource-id='com.tencent.wework:id/bgk']//*[@resource-id='com.tencent.wework:id/b7m']
+    action: find_send
+    send_key: aa_009
+
+  - locator: //*[@resource-id='com.tencent.wework:id/err']//*[@resource-id='com.tencent.wework:id/bgk']//*[@resource-id='com.tencent.wework:id/b7m']
+    action: find_send
+    send_key: aa_009
+
+  - locator: //*[@text='手机号']
+    action: find_send
+    send_key: 18812323412
+
+  - locator: //*[@text='保存']
+    action: find_click
+
+is_quick_or_full__page:
+  - locator: //*[@text='完整输入']
+    action: find_click
+
+  - locator: //*[@text='快速输入']
+    action: find_click

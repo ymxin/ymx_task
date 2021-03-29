@@ -1,0 +1,3 @@
+goto_add_for_manual_input:
+  - locator: //*[@text='手动输入添加']
+    action: find_click

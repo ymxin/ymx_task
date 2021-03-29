@@ -1,0 +1,3 @@
+goto_add_member:
+  - locator: //*[@text='添加成员']
+    action: find_click
