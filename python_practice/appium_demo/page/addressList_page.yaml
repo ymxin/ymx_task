@@ -1,0 +1,4 @@
+click_addcontact:
+  - text: 添加成员
+    action: swipe_click
+    by: xpath

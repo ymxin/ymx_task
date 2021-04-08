@@ -1,0 +1,20 @@
+exit_contact:
+  - locator: //*[contains(@text, "姓名")]/..//*[@text='必填']
+    action: find_sendkeys
+    text: ${name}
+    by: xpath
+
+  - locator: //*[contains(@text, "+86")]/../..//*[@text='必填']
+    action: find_sendkeys
+    text: ${phone_num}
+    by: xpath
+
+  - locator: //*[@text='保存']
+    action: find_click
+    by: xpath
+
+verify_ok:
+  - locator: //*[@text='添加成功']
+    action: find
+    by: xpath
+

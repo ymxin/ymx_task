@@ -1,0 +1,4 @@
+addContact_menual:
+  - locator: //*[@text='手动输入添加']
+    action: find_click
+    by: xpath
