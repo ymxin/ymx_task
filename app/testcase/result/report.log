@@ -1,0 +1,8 @@
+Sun, 11 Apr 2021 14:22:06 base_page.py[line:43] INFO find: by=xpath, locator=//*[@text='日程']
+Sun, 11 Apr 2021 14:22:08 base_page.py[line:43] INFO find: by=xpath, locator=//*[@text="通讯录"]
+Sun, 11 Apr 2021 14:22:18 base_page.py[line:48] INFO 未找到元素
+Sun, 11 Apr 2021 14:22:18 base_page.py[line:43] INFO find: by=xpath, locator=//*[@text="通讯录"]
+Sun, 11 Apr 2021 14:22:19 base_page.py[line:43] INFO find: by=xpath, locator=//*[@resource-id="com.tencent.wework:id/igf"]
+Sun, 11 Apr 2021 14:22:21 base_page.py[line:43] INFO find: by=xpath, locator=//*[@resource-id="com.tencent.wework:id/enj"][last()-1]
+Sun, 11 Apr 2021 14:22:22 base_page.py[line:43] INFO find: by=xpath, locator=//*[@text="删除成员"]
+Sun, 11 Apr 2021 14:22:23 base_page.py[line:43] INFO find: by=xpath, locator=//*[@text="确定"]

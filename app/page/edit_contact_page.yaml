@@ -1,0 +1,4 @@
+goto_delete_contact:
+  - action: find_click
+    by: xpath
+    locator: //*[@resource-id="com.tencent.wework:id/enj"][last()-1]

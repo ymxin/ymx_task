@@ -1,0 +1,8 @@
+goto_manage_contacts:
+  - locator: //*[@text='日程']
+    action: find_click
+    by: xpath
+
+  - action: find_click
+    by: xpath
+    locator: //*[@text="通讯录"]

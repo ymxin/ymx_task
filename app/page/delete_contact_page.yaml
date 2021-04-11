@@ -1,0 +1,9 @@
+delete_contact:
+  - action: find_click
+    by: xpath
+    locator: //*[@text="删除成员"]
+
+confirm_delete_popup:
+  - action: find_click
+    by: xpath
+    locator: //*[@text="确定"]
